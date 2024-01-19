@@ -1,0 +1,31 @@
+.SidebarButton {
+  height: 60px;
+  width: 80px;
+  border-radius: 20px;
+  color: #adb8f0f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 10px;
+}
+a{
+  text-decoration: none !important;
+}
+
+.title{
+  margin: 4px auto;
+  font-weight: 600;
+  font-size: 16px;
+}
+.SidebarButton.active{
+  background-color: rgba(173, 184, 240,0.5);
+  color:#fff!important;
+  transform: scale(1.05);
+}
+
+.SidebarButton:hover{
+  color: #fff;
+}

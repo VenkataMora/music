@@ -1,0 +1,7 @@
+.Main-Body{
+height: 100vh;
+width: 100vw;
+background: linear-gradient(to top right, #0f2862, #9e363a,#091f36, #4f5f76);
+border-radius: 30px;
+display: flex;
+}
